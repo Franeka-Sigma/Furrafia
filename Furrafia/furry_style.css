@@ -1,3 +1,5 @@
+/* Strona Wyboru */
+
 body {
     background: linear-gradient(to bottom, #380334, #6d466b, #380334);
     margin: 0;
@@ -15,21 +17,21 @@ body {
 
 .title_sec h1 {
     color: white;
-    font-size: 64px;
+    font-size: 9rem;
     margin: 0;
-    letter-spacing: 3px;
+    letter-spacing: 0.2rem;
 }
 
 .title_sec p.wobbly {
-    color: #EAD7D7;
+    color: #b49fcc;
     margin: 0;
-    margin-top: -30px;
-    margin-left: 50px;
-    font-size: 24px;
+    margin-top: -2rem;
+    margin-left: 25rem;
+    font-size: 2rem;
     font-weight: bold;
     transform: rotate(-1deg);
     animation: wobble 2s infinite ease-in-out;
-    text-shadow: 2px 2px 0 #000;
+    text-shadow: 0.1rem 0.2rem 0 #000;
 }
 
 @keyframes wobble {
@@ -50,7 +52,7 @@ body {
     height: 40rem;
     float: left;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 1rem;
 }
 .sekcjaWyboru button {
     width: 90%;
@@ -60,8 +62,8 @@ body {
     background-image: url(kosmos.png);
     background-size: cover;
     transition: 0.2s;
-    border: 15px #B49FCC solid;
-    border-radius: 20px;
+    border: 1rem #B49FCC solid;
+    border-radius: 2rem;
     
 }
 #kosmos:hover {
@@ -71,8 +73,8 @@ body {
     background-image: url(pustynia.png);
     background-size: cover;
     transition: 0.2s;
-    border: 15px #CCDCA4 solid;
-    border-radius: 20px;
+    border: 1rem #CCDCA4 solid;
+    border-radius: 2rem;
 }
 #pustynia:hover {
     transform: scale(1.02);
@@ -88,12 +90,12 @@ body {
     background-size: cover;
     transition: 0.5s;
     border: 15px #B49FCC solid;
-    color: white;
+    color: #B49FCC;
     border-radius: 20px;
     height: 50%;
     width: 50%;
     font-size: 3rem;
 }
 #rozpocznij:hover {
-    transform: scale(1.02);
+    transform: scale(1.1);
 }
