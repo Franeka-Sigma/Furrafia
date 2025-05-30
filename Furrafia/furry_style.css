@@ -1,14 +1,16 @@
 body {
-    background-color: #6D466B;
+    background: linear-gradient(to bottom, #380334, #6d466b, #380334);
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
 }
 
 .title_sec {
     text-align: center;
     display: inline-block;
-    margin-top: 50px;
+    width: 100%;
+    height: 15rem;
 }
 
 .title_sec h1 {
@@ -21,7 +23,7 @@ body {
 .title_sec p.wobbly {
     color: #EAD7D7;
     margin: 0;
-    margin-top: -10px;
+    margin-top: -30px;
     margin-left: 50px;
     font-size: 24px;
     font-weight: bold;
@@ -39,4 +41,59 @@ body {
         transform: rotate(-10deg) scale(1.05);
     }
 }
-
+.wyborMain {
+    width: 100%;
+    height: 60rem;
+}
+.sekcjaWyboru {
+    width: 50%;
+    height: 40rem;
+    float: left;
+    text-align: center;
+    margin-top: 100px;
+}
+.sekcjaWyboru button {
+    width: 90%;
+    height: 100%;
+}
+#kosmos {
+    background-image: url(kosmos.png);
+    background-size: cover;
+    transition: 0.2s;
+    border: 15px #B49FCC solid;
+    border-radius: 20px;
+    
+}
+#kosmos:hover {
+    transform: scale(1.02);
+}
+#pustynia {
+    background-image: url(pustynia.png);
+    background-size: cover;
+    transition: 0.2s;
+    border: 15px #CCDCA4 solid;
+    border-radius: 20px;
+}
+#pustynia:hover {
+    transform: scale(1.02);
+}
+.wyborFooter {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 15rem;
+}
+#rozpocznij {
+    background-image: url(kosmos.png);
+    background-size: cover;
+    transition: 0.5s;
+    border: 15px #B49FCC solid;
+    color: white;
+    border-radius: 20px;
+    height: 50%;
+    width: 50%;
+    font-size: 3rem;
+}
+#rozpocznij:hover {
+    transform: scale(1.02);
+}
