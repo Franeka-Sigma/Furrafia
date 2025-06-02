@@ -51,19 +51,47 @@ body {
     width: 25%;
     height: 100%;
     border-width: 1rem 0.5rem;
-    border-color: #d9d5d6 ;
+    border-color: #CCDCA4 ;
     border-style: solid;
     overflow: auto;
 }
 .cele {
     width: 100%;
     height: 20%;
-    background-color: rgba(255,255,255,0.9);
-    border-bottom: 0.2rem solid #000;
+    background-color: rgba(237, 176, 71, 0.3);
+    border-bottom: 0.2rem solid #CCDCA4;
 }
 .kategorie {
     width: 100%;
     height: 25%;
-    background-color: rgba(255,255,255,0.9);
-    border-bottom: 0.2rem solid #000;
+    background-color: rgba(237, 176, 71, 0.3);
+    border-bottom: 0.2rem solid #CCDCA4;
+}
+.kategorie button {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition: 0.5s;
+    border: 15px #CCDCA4 solid;
+    color: #CCDCA4;
+    font-size: 3rem;
+}
+.kategorie button:hover {
+    transform: scale(1.1);
+}
+#Lud {
+    background-image: url(furrydesert.png);
+    background-position-y: -3rem;
+}
+#Budynki {
+    background-image: url(villagedesert.png);
+    background-position-y: -6rem;
+}
+#Terraformacja {
+    background-image: url(terraformation.png);
+    background-position-y: -5rem;
+}
+form {
+    width: 100%;
+    height: 100%;
 }
